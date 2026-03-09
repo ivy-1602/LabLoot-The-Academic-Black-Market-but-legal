@@ -509,7 +509,7 @@ footer{background:var(--ink);padding:4rem 2rem 0;border-top:4px solid var(--red)
     <div class="hero-dateline">
       <span>SPPU — 2019 Pattern — CE &amp; AI-ML</span>
       <span style="font-weight:700;color:var(--red);">THE ACADEMIC BLACK MARKET</span>
-      <span>Est. When One (my) Journal Became Everyone's Journal</span>
+      <span>Est. When We Stopped Caring About Our GPA</span>
     </div>
     <div class="hero-name">Lab<span class="red italic">Loot</span></div>
     <hr style="border:none;border-top:1px solid var(--ink);margin:.4rem 0;">
@@ -725,7 +725,7 @@ footer{background:var(--ink);padding:4rem 2rem 0;border-top:4px solid var(--red)
       <div class="made-by">
         <div class="made-by-label">Designed &amp; Built by</div>
         <div class="made-by-uss">U<span>S</span>S</div>
-        <div class="made-by-tagline">Someone whose journal was always a standard set for the department.</div>
+        <div class="made-by-tagline">Student. Developer. Someone whose journal was always a standard set for the department.</div>
         <div style="font-family:'Courier Prime',monospace;font-size:.62rem;color:#2a2a2a;font-style:italic;text-align:right;margin-top:.3rem;">
           "My journal is already sealed and signed, because I'm me."
         </div>
@@ -994,44 +994,36 @@ const PRODUCTS = [
  exam:{cce:30,ese:70}},
 
 // ─── CE SEM 5 — NOTES ───
-{id:'n-cn',branch:'CE',sem:5,type:'notes',code:'310241',
- name:'Computer Networks — Complete Notes',
- tagline:'"OSI to TCP/IP. Subnetting, routing, transport, application protocols. All 6 units."',
- badge:'new',price:799,mrp:1499,
- contents:['6 Units','Protocol Diagrams','Subnetting Examples','PYQ Solved','Quick Revision'],
- includes:['Unit I — Network Models (OSI, TCP/IP, physical layer — encoding, multiplexing)','Unit II — Data Link Layer (framing, error detection, sliding window, PPP, HDLC)','Unit III — Network Layer (IP, subnetting, CIDR, NAT, ICMP, IPv6)','Unit IV — Routing Algorithms (RIP, OSPF, BGP, congestion control)','Unit V — Transport Layer (TCP, UDP, flow/error control, socket programming overview)','Unit VI — Application Layer (DNS, HTTP, SMTP, FTP, DHCP, SNMP)','Subnetting solved examples with step-by-step working','Protocol comparison tables','Previous year SPPU questions solved'],
- exam:{cce:30,ese:70}},
-
-{id:'n-os',branch:'CE',sem:5,type:'notes',code:'310242',
- name:'Operating Systems — Complete Notes',
- tagline:'"Scheduling, synchronisation, deadlocks, memory management, file systems — all with solved examples."',
- badge:'hot',price:799,mrp:1499,
- contents:['6 Units','Gantt Charts','Banker\'s Algorithm','Page Replacement','PYQ Solved'],
- includes:['Unit I — Process Management (PCB, process states, system calls, threads)','Unit II — CPU Scheduling (FCFS, SJF, priority, round robin, multilevel queue — Gantt charts)','Unit III — Process Synchronisation (critical section, semaphores, monitors, classic problems)','Unit IV — Deadlocks (prevention, Banker\'s algorithm, detection, recovery)','Unit V — Memory Management (paging, segmentation, TLB, virtual memory, page replacement)','Unit VI — File Systems (FAT, inode, directory structure, disk scheduling — SCAN, C-SCAN)','CPU scheduling solved examples with Gantt charts','Banker\'s algorithm worked examples','Page replacement solved examples (FIFO, LRU, Optimal)','SPPU PYQ solved'],
- exam:{cce:30,ese:70}},
-
-{id:'n-daa',branch:'CE',sem:5,type:'notes',code:'310243',
- name:'Design & Analysis of Algorithms — Complete Notes',
- tagline:'"Divide & conquer, greedy, DP, backtracking, NP-completeness. All paradigms. All traces."',
- badge:'trending',price:799,mrp:1499,
- contents:['6 Units','Algorithm Traces','DP Tables','Recurrence Solutions','PYQ Solved'],
- includes:['Unit I — Algorithm Analysis (recurrences, Master theorem, amortised analysis)','Unit II — Divide & Conquer (merge sort, quick sort, matrix multiply, closest pair)','Unit III — Greedy (activity selection, Huffman coding, Kruskal, Prim, Dijkstra)','Unit IV — Dynamic Programming (matrix chain, LCS, 0/1 knapsack, TSP, OBST)','Unit V — Backtracking & Branch-Bound (N-Queens, subset sum, 0/1 knapsack B&B)','Unit VI — NP-Completeness (P vs NP, NP-complete problems, approximation algorithms)','Recurrence solved using all methods (substitution, iteration, Master theorem)','DP table examples with traceback','Quick revision algorithm comparison table'],
- exam:{cce:30,ese:70}},
-
-{id:'n-toc',branch:'CE',sem:5,type:'notes',code:'310244',
- name:'Theory of Computation — Complete Notes',
- tagline:'"DFA, NFA, CFG, PDAs, Turing machines, decidability. The theoretical side — made survivable."',
- badge:'',price:799,mrp:1499,
- contents:['6 Units','DFA/NFA Constructions','Pumping Lemma','TM Design','PYQ Solved'],
- includes:['Unit I — Finite Automata (DFA, NFA, ε-NFA, equivalence, minimisation)','Unit II — Regular Expressions & Languages (RE, Pumping Lemma, closure properties)','Unit III — Context-Free Grammars (CFG, parse trees, ambiguity, CNF, GNF)','Unit IV — Pushdown Automata (PDA, DPDA, CFG↔PDA equivalence)','Unit V — Turing Machines (TM models, variants, undecidability, Halting Problem)','Unit VI — Complexity (P, NP, co-NP, NP-hard, NP-complete — Cook\'s theorem)','DFA/NFA construction worked examples','Pumping Lemma proof examples','TM design examples for common languages'],
- exam:{cce:30,ese:70}},
-
-{id:'n-dbms5',branch:'CE',sem:5,type:'notes',code:'310245',
+{id:'n-dbms5',branch:'CE',sem:5,type:'notes',code:'310241',
  name:'DBMS — Complete Notes',
- tagline:'"ER modeling, SQL, normalization, transactions, PL/SQL, NoSQL. Complete database theory."',
+ tagline:'"Relational algebra, SQL from scratch, normalisation, transactions, PL/SQL, NoSQL. The database subject CE actually uses."',
  badge:'hot',price:799,mrp:1499,
- contents:['6 Units','SQL Reference','ER Diagrams','Normalisation','Transaction Problems'],
- includes:['Unit I — ER Modeling (entities, relationships, attributes, ER→relational mapping)','Unit II — Relational Model & SQL (DDL, DML, joins, subqueries, aggregate functions)','Unit III — Normalisation (1NF, 2NF, 3NF, BCNF — step-by-step worked examples)','Unit IV — Transactions & Concurrency (ACID, serializability, locking, deadlock)','Unit V — PL/SQL (triggers, stored procedures, cursors, exception handling)','Unit VI — NoSQL & Big Data (MongoDB, Cassandra, CAP theorem)','Complete SQL command reference','ER diagram to relational schema conversion examples','Normalisation worked examples','SPPU PYQ solved'],
+ contents:['6 Units','SQL Reference','ER Diagrams','Normalisation','Transaction Problems','PYQ Solved'],
+ includes:['Unit I — ER Modeling (entities, relationships, attributes, ER→relational schema mapping)','Unit II — Relational Model & Relational Algebra (SELECT, PROJECT, JOIN, DIVISION)','Unit III — SQL (DDL, DML, joins, subqueries, aggregate functions, views, indexes)','Unit IV — Normalisation (1NF, 2NF, 3NF, BCNF — step-by-step worked examples)','Unit V — Transactions & Concurrency (ACID, serializability, locking protocols, deadlock)','Unit VI — PL/SQL & NoSQL (triggers, stored procedures, cursors, MongoDB, CAP theorem)','Complete SQL command reference card','ER diagram to relational schema conversion examples','Normalisation worked examples (FD sets, decomposition)','SPPU PYQ solved'],
+ exam:{cce:30,ese:70}},
+
+{id:'n-toc5',branch:'CE',sem:5,type:'notes',code:'310242',
+ name:'Theory of Computation — Complete Notes',
+ tagline:'"DFA, NFA, CFG, PDAs, Turing machines, decidability, P vs NP. The theoretical subject — made survivable."',
+ badge:'',price:799,mrp:1499,
+ contents:['6 Units','DFA/NFA Constructions','CFG Examples','Pumping Lemma','TM Design','PYQ Solved'],
+ includes:['Unit I — Finite Automata (DFA, NFA, ε-NFA, equivalence, minimisation)','Unit II — Regular Expressions & Languages (RE to DFA, Pumping Lemma, closure properties)','Unit III — Context-Free Grammars (CFG, parse trees, ambiguity, CNF, GNF)','Unit IV — Pushdown Automata (PDA, DPDA, CFG↔PDA equivalence, CFL properties)','Unit V — Turing Machines (TM models, variants, Church-Turing thesis, Halting Problem)','Unit VI — Complexity Classes (decidability, P, NP, NP-hard, NP-complete — Cook's theorem)','DFA/NFA construction worked examples (step-by-step)','Pumping Lemma proof examples for regular and CFLs','TM design examples for standard languages'],
+ exam:{cce:30,ese:70}},
+
+{id:'n-spos5',branch:'CE',sem:5,type:'notes',code:'310243',
+ name:'Systems Programming & OS — Complete Notes',
+ tagline:'"Assemblers, linkers, loaders, macros, OS scheduling, memory management — SPOS + OS combined and fully covered."',
+ badge:'trending',price:799,mrp:1499,
+ contents:['6 Units','Assembler Passes','OS Algorithms','Gantt Charts',"Banker's Algo",'PYQ Solved'],
+ includes:['Unit I — Language Processors (assembler design, two-pass assembler, symbol table, location counter)','Unit II — Macro Processors (macro definition, expansion, MDT/MNT, ALA)','Unit III — Linkers & Loaders (absolute, relocatable, dynamic linking, relocation, linking steps)','Unit IV — OS Fundamentals & Process Management (process states, PCB, threads, system calls)','Unit V — CPU Scheduling & Synchronisation (FCFS, SJF, RR, semaphores, monitors, deadlock)','Unit VI — Memory Management (paging, segmentation, virtual memory, page replacement, disk scheduling)','Two-pass assembler trace examples with symbol table','CPU scheduling Gantt chart solved examples','Banker's algorithm worked problems','Page replacement (FIFO, LRU, Optimal) solved'],
+ exam:{cce:30,ese:70}},
+
+{id:'n-cns5',branch:'CE',sem:5,type:'notes',code:'310244',
+ name:'Computer Networks & Security — Complete Notes',
+ tagline:'"OSI to TCP/IP, routing, transport, application layer + cryptography, firewalls, SSL/TLS. Networks and security — both in one."',
+ badge:'new',price:799,mrp:1499,
+ contents:['6 Units','Protocol Diagrams','Subnetting Examples','Crypto Algorithms','PYQ Solved'],
+ includes:['Unit I — Network Models & Physical Layer (OSI, TCP/IP, encoding, multiplexing, transmission media)','Unit II — Data Link & Network Layer (framing, error detection, IP, subnetting, CIDR, NAT, ICMP)','Unit III — Routing & Transport Layer (RIP, OSPF, BGP, TCP, UDP, flow/congestion control)','Unit IV — Application Layer (DNS, HTTP/HTTPS, SMTP, FTP, DHCP, SNMP)','Unit V — Cryptography (symmetric — DES/AES, asymmetric — RSA, hashing — SHA/MD5, digital signatures)','Unit VI — Network Security (PKI, SSL/TLS, IPSec, firewalls, IDS/IPS, VPN, common attacks)','Subnetting solved examples (VLSM + CIDR)','RSA encryption/decryption worked examples','Protocol comparison tables','PYQ solved'],
  exam:{cce:30,ese:70}},
 
 // ─── CE SEM 5 — LABS ───
@@ -1061,46 +1053,52 @@ const PRODUCTS = [
 
 // ─── CE SEM 5 — COMBOS ───
 {id:'c-ce5-notes',branch:'CE',sem:5,type:'combo',code:'BUNDLE-CE5-N',
- name:'CE Sem 5 — Notes Bundle (All 5 Subjects)',
- tagline:'"CN + OS + DAA + TOC + DBMS. All 5 Sem 5 theory notes in one download."',
- badge:'combo',price:2999,mrp:7495,
- contents:['5 Notes PDFs','30 Units','Algorithm Traces','PYQ All','Quick Revision'],
- includes:['📒 Computer Networks — Complete Notes','📒 Operating Systems — Complete Notes','📒 Design & Analysis of Algorithms — Complete Notes','📒 Theory of Computation — Complete Notes','📒 DBMS — Complete Notes','All 30 units covered','Scheduling + Banker\'s + DP + DFA examples','PYQ analysis for all subjects'],
+ name:'CE Sem 5 — Notes Bundle (All 4 Subjects)',
+ tagline:'"DBMS + TOC + SPOS\u00a0&\u00a0OS + CN\u00a0&\u00a0Security. All 4 Sem 5 theory notes. One download."',
+ badge:'combo',price:2999,mrp:7196,
+ contents:['4 Notes PDFs','24 Units','Assembler Traces','Crypto Algorithms','PYQ All','Quick Revision'],
+ includes:['📒 DBMS — Complete Notes (SQL, normalisation, PL/SQL, NoSQL)','📒 Theory of Computation — Complete Notes (DFA, CFG, TM, P vs NP)','📒 Systems Programming & OS — Complete Notes (Assembler, linkers, OS algos)','📒 Computer Networks & Security — Complete Notes (TCP/IP, routing, crypto, firewalls)','All 24 units covered','Assembler traces + Banker's + RSA worked examples','PYQ analysis for all 4 subjects'],
  exam:{cce:30,ese:70}},
 
 {id:'c-ce5-labs',branch:'CE',sem:5,type:'combo',code:'BUNDLE-CE5-L',
  name:'CE Sem 5 — Labs Bundle (All 3 Labs)',
- tagline:'"LP-1 (SPOS+DS) + DBMS Lab + CN Lab. All 32 assignments. Assembler to MongoDB to sockets — done."',
+ tagline:'"LP-1 (SPOS+DS) + DBMS Lab + CN & Security Lab. All 32 assignments. Assembler to MongoDB to sockets — done."',
  badge:'combo',price:1999,mrp:5097,
  contents:['32 Programs Total','Python + Java + SQL','Viva Q&A 90+','Cover Pages x3','Index Formats','Flowcharts All'],
- includes:['🧪 LP-1 Lab — 12 assignments (Assembler, OS algos, Sockets, RPC)','🧪 DBMS Lab — 12 assignments (DDL/DML, Triggers, PL/SQL, MongoDB)','🧪 Computer Networks Lab — 8 assignments (TCP/UDP, HTTP, DNS, Wireshark)','All cover pages, index formats, certificate page formats','Viva Q&A for all 3 labs — 90+ questions with model answers','Sample output screenshots for all programs','Algorithms + flowcharts for every assignment'],
+ includes:['🧪 LP-1 Lab — 12 assignments (Assembler, OS algos, Banker's, Sockets, RPC)','🧪 DBMS Lab — 12 assignments (DDL/DML, Triggers, PL/SQL, MongoDB)','🧪 CN & Security Lab — 8 assignments (TCP/UDP sockets, HTTP sim, DNS, Wireshark)','All cover pages, index formats, certificate page formats','Viva Q&A for all 3 labs — 90+ questions with model answers','Sample output screenshots for all programs','Algorithms + flowcharts for every assignment'],
  exam:{cce:25,ese:25}},
 
 {id:'c-ce5-full',branch:'CE',sem:5,type:'combo',code:'BUNDLE-CE5-FULL',
  name:'CE Sem 5 — COMPLETE BUNDLE (Notes + Labs)',
- tagline:'"5 notes + 3 labs. CN, OS, DAA, TOC, DBMS — theory AND practicals. Sem 5 fully done. ₹3,999 instead of ₹12,592."',
- badge:'hot',price:3999,mrp:12592,
- contents:['5 Notes PDFs','3 Lab Packs','32 Programs','Viva Q&A 90+','Cover Pages All','PYQ Solved'],
- includes:['📒 Computer Networks — Complete Notes','📒 Operating Systems — Complete Notes','📒 DAA — Complete Notes','📒 Theory of Computation — Complete Notes','📒 DBMS — Complete Notes','🧪 LP-1 Lab — Assembler + OS algos + Sockets (12 assignments)','🧪 DBMS Lab — MySQL + PL/SQL + MongoDB (12 assignments)','🧪 CN Lab — Socket programming + Wireshark (8 assignments)','All cover pages, index formats, certificate pages','Viva Q&A for all labs (90+ Q)','SPPU 2019 CE Sem 5 — complete'],
+ tagline:'"4 notes + 3 labs. DBMS, TOC, SPOS+OS, CN+Security — theory AND practicals. Sem 5 fully done. ₹3,999."',
+ badge:'hot',price:3999,mrp:12293,
+ contents:['4 Notes PDFs','3 Lab Packs','32 Programs','Viva Q&A 90+','Cover Pages All','PYQ Solved'],
+ includes:['📒 DBMS — Complete Notes','📒 Theory of Computation — Complete Notes','📒 Systems Programming & OS — Complete Notes','📒 Computer Networks & Security — Complete Notes','🧪 LP-1 Lab — Assembler + OS algos + Sockets (12 assignments)','🧪 DBMS Lab — MySQL + PL/SQL + MongoDB (12 assignments)','🧪 CN & Security Lab — Socket programming + Wireshark (8 assignments)','All cover pages, index formats, certificate pages','Viva Q&A for all labs (90+ Q)','SPPU 2019 CE Sem 5 — complete'],
  exam:{cce:30,ese:70}},
-
-
 
 // ─── CE SEM 6 — NOTES ───
-{id:'n-cc6',branch:'CE',sem:6,type:'notes',code:'410241',
- name:'Cloud Computing — Complete Notes',
- tagline:'"Cloud models, virtualisation, IaaS/PaaS/SaaS, Docker, Kubernetes, AWS/Azure. Modern and exam-ready."',
- badge:'new',price:799,mrp:1499,
- contents:['6 Units','Architecture Diagrams','Docker Reference','Platform Comparison','PYQ Solved'],
- includes:['Unit I — Cloud Fundamentals (models, characteristics, deployment types, benefits)','Unit II — Virtualisation (hypervisors, VMware, containers vs VMs)','Unit III — Service Models (IaaS, PaaS, SaaS — examples and comparison)','Unit IV — Cloud Platforms (AWS EC2/S3, Azure, GCP — key services overview)','Unit V — Containerisation (Docker, Kubernetes, microservices)','Unit VI — Cloud Security & Emerging Trends (IAM, encryption, serverless, edge computing)','AWS vs Azure vs GCP comparison table','Docker commands reference card','Cloud architecture diagrams','PYQ analysis'],
+{id:'n-dsbda6',branch:'CE',sem:6,type:'notes',code:'410241',
+ name:'Data Science & Big Data Analytics — Complete Notes',
+ tagline:'"Statistics, data preprocessing, ML fundamentals, Hadoop, Spark, visualisation. The subject that\'s actually useful."',
+ badge:'hot',price:799,mrp:1499,
+ contents:['6 Units','Hadoop Architecture','Spark Intro','Data Viz','ML Basics','PYQ Solved'],
+ includes:['Unit I — Introduction to Data Science (data types, data science lifecycle, tools overview)','Unit II — Statistics for Data Science (descriptive stats, probability, distributions, hypothesis testing)','Unit III — Data Preprocessing & Wrangling (missing values, outliers, normalisation, feature engineering)','Unit IV — Data Visualisation & Mining (Matplotlib, Seaborn, clustering, association rules, Apriori)','Unit V — Big Data & Hadoop (HDFS, MapReduce, Hive, Pig, HBase overview)','Unit VI — Spark & Advanced Analytics (Spark RDD/DataFrame, MLlib, real-time streaming, case studies)','Hadoop ecosystem diagram','MapReduce word count worked example','Data preprocessing cheat sheet','PYQ solved'],
  exam:{cce:30,ese:70}},
 
-{id:'n-ml6',branch:'CE',sem:6,type:'notes',code:'410242',
- name:'Machine Learning — Complete Notes',
- tagline:'"Naive Bayes, SVM, backpropagation, K-Means. The subject CE students didn\'t expect to love."',
- badge:'hot',price:899,mrp:1699,
- contents:['6 Units','Decision Boundaries','Math Derivations','Python Code','PYQ Solved'],
- includes:['Unit I — ML Fundamentals (supervised/unsupervised/RL, bias-variance, overfitting)','Unit II — Classification (Naive Bayes, KNN, Decision Trees, SVM)','Unit III — Regression (linear, logistic, polynomial — derivations with examples)','Unit IV — Clustering & Dimensionality (K-Means, hierarchical, PCA)','Unit V — Ensemble & Neural Nets (Random Forest, boosting, perceptron, backpropagation)','Unit VI — ML Frameworks (scikit-learn, TensorFlow/Keras, model evaluation)','Decision boundary diagrams for each classifier','Math derivations (gradient descent, Bayes theorem)','Python pseudocode for every algorithm','Confusion matrix, ROC-AUC, F1 examples'],
+{id:'n-wt6',branch:'CE',sem:6,type:'notes',code:'410242',
+ name:'Web Technology — Complete Notes',
+ tagline:'"HTML5, CSS3, JavaScript, PHP, Node.js, REST APIs, databases. Full-stack web dev — theory made clear."',
+ badge:'new',price:799,mrp:1499,
+ contents:['6 Units','HTML/CSS Reference','JS Concepts','PHP Syntax','Node.js/Express','PYQ Solved'],
+ includes:['Unit I — Web Fundamentals (HTTP/HTTPS, client-server model, browsers, web standards)','Unit II — HTML5 & CSS3 (semantic tags, forms, Flexbox, Grid, responsive design, Bootstrap)','Unit III — JavaScript (DOM, events, ES6+, AJAX, JSON, Fetch API, promises)','Unit IV — Server-Side — PHP (syntax, forms, sessions, cookies, file handling, OOP PHP)','Unit V — PHP + MySQL (CRUD, PDO, prepared statements, authentication)','Unit VI — Node.js & Modern Web (Express.js, REST API design, npm, MVC pattern, security)','HTTP request/response diagram','JavaScript event loop explained','REST API design reference','PYQ solved'],
+ exam:{cce:30,ese:70}},
+
+{id:'n-ai6',branch:'CE',sem:6,type:'notes',code:'410243',
+ name:'Artificial Intelligence — Complete Notes',
+ tagline:'"Heuristic search, game theory, knowledge representation, planning, Bayesian reasoning. AI — from theory to application."',
+ badge:'trending',price:799,mrp:1499,
+ contents:['6 Units','A* Traces','Minimax Trees','Prolog Examples','Bayesian Networks','PYQ Solved'],
+ includes:['Unit I — Problem Solving by Search (BFS, DFS, UCS, greedy, A* — heuristics, admissibility)','Unit II — Adversarial Search & Game Theory (minimax, alpha-beta pruning, stochastic games)','Unit III — Knowledge Representation (propositional logic, FOL, inference rules, resolution, unification)','Unit IV — Planning (STRIPS, partial-order planning, planning graphs, situation calculus)','Unit V — Uncertainty & Bayesian Networks (probability theory, Bayes rule, Bayesian networks, inference)','Unit VI — Learning & Expert Systems (ML overview, Prolog, expert system architecture, fuzzy logic)','A* trace with heuristic calculations (8-puzzle + grid examples)','Minimax tree with alpha-beta pruning example','Bayesian network probability problems solved','PYQ solved'],
  exam:{cce:30,ese:70}},
 
 // ─── CE SEM 6 — LABS ───
@@ -1130,103 +1128,85 @@ const PRODUCTS = [
 
 // ─── CE SEM 6 — COMBOS ───
 {id:'c-ce6-notes',branch:'CE',sem:6,type:'combo',code:'BUNDLE-CE6-N',
- name:'CE Sem 6 — Notes Bundle (All Subjects)',
- tagline:'"Cloud Computing + Machine Learning + SPCD + CNS. All Sem 6 theory notes in one download."',
- badge:'combo',price:2999,mrp:6995,
- contents:['4 Notes PDFs','ML Math Derivations','Docker Reference','Crypto Examples','PYQ All'],
- includes:['📒 Cloud Computing — Complete Notes','📒 Machine Learning — Complete Notes','📒 System Programming & Compiler Design — Complete Notes','📒 Computer Networks & Security — Complete Notes','ML derivations + crypto worked examples','PYQ analysis for all subjects'],
+ name:'CE Sem 6 — Notes Bundle (All 3 Subjects)',
+ tagline:'"Data Science & Big Data + Web Technology + AI. All 3 Sem 6 theory notes in one pack."',
+ badge:'combo',price:1999,mrp:4497,
+ contents:['3 Notes PDFs','18 Units','A* Traces','Hadoop Diagrams','JS Reference','PYQ All'],
+ includes:['📒 Data Science & Big Data Analytics — Complete Notes','📒 Web Technology — Complete Notes','📒 Artificial Intelligence — Complete Notes','All 18 units covered','Hadoop ecosystem + MapReduce examples','A* trace + Bayesian network problems','PYQ analysis for all 3 subjects'],
  exam:{cce:30,ese:70}},
 
 {id:'c-ce6-labs',branch:'CE',sem:6,type:'combo',code:'BUNDLE-CE6-L',
  name:'CE Sem 6 — Labs Bundle (All 3 Labs)',
- tagline:'"DSBDA (10) + WTL (10) + LP-2 AI+ML (10). All 30 assignments. Python + Web + AI. One pack."',
+ tagline:'"DSBDA (10) + Web Tech Lab (10) + LP-2 AI+ML (10). All 30 assignments. Python + Web + AI. One pack."',
  badge:'combo',price:2499,mrp:6297,
  contents:['30 Assignments','Python + Web + Prolog','Viva Q&A 95+','Cover Pages x3','Jupyter Notebooks','Full Source Code'],
- includes:['🧪 DSBDA Lab — 10 Python data science notebooks','🧪 WTL — 10 web assignments (HTML/CSS/JS/PHP/Node)','🧪 LP-2 Lab — 10 AI + ML assignments (A*, Prolog, sklearn)','All cover pages, index formats, certificate pages','Viva Q&A for all 3 labs — 95+ questions','Sample outputs + plots for all assignments'],
+ includes:['🧪 DSBDA Lab — 10 Python data science notebooks (Pandas, NumPy, Hadoop, Hive)','🧪 Web Technology Lab — 10 assignments (HTML/CSS/JS/PHP/Node.js/MySQL)','🧪 LP-2 Lab — 10 AI + ML assignments (A*, Prolog, Naive Bayes, KNN, K-Means)','All cover pages, index formats, certificate pages','Viva Q&A for all 3 labs — 95+ questions','Sample outputs + plots for all assignments'],
  exam:{cce:25,ese:25}},
 
 {id:'c-ce6-full',branch:'CE',sem:6,type:'combo',code:'BUNDLE-CE6-FULL',
  name:'CE Sem 6 — COMPLETE BUNDLE (Notes + Labs)',
- tagline:'"4 notes + 3 labs. Cloud, ML, SPCD, CNS — plus DSBDA, Web Tech, LP-2 labs. Sem 6 completely done. ₹3,999."',
- badge:'hot',price:3999,mrp:13292,
- contents:['4 Notes PDFs','3 Lab Packs','30 Assignments','Viva Q&A 95+','Cover Pages All','PYQ Solved'],
- includes:['📒 Cloud Computing — Complete Notes','📒 Machine Learning — Complete Notes','📒 System Programming & Compiler Design — Complete Notes','📒 Computer Networks & Security — Complete Notes','🧪 DSBDA Lab — 10 Python data science notebooks','🧪 WTL — 10 web assignments (HTML/CSS/JS/PHP/Node.js)','🧪 LP-2 Lab — 10 AI + ML assignments (A*, Prolog, sklearn models)','All cover pages, index formats, certificate pages','Viva Q&A for all labs (95+ Q)','SPPU 2019 CE Sem 6 — complete'],
+ tagline:'"3 notes + 3 labs. DSBDA, Web Tech, AI — theory AND practicals. Sem 6 completely done. ₹3,999."',
+ badge:'hot',price:3999,mrp:10794,
+ contents:['3 Notes PDFs','3 Lab Packs','30 Assignments','Viva Q&A 95+','Cover Pages All','PYQ Solved'],
+ includes:['📒 Data Science & Big Data Analytics — Complete Notes','📒 Web Technology — Complete Notes','📒 Artificial Intelligence — Complete Notes','🧪 DSBDA Lab — 10 Python notebooks (Pandas, Hadoop, Hive, visualisation)','🧪 Web Tech Lab — 10 assignments (HTML/CSS/JS/PHP/Node.js)','🧪 LP-2 Lab — 10 AI + ML assignments (A*, Prolog, sklearn models)','All cover pages, index formats, certificate pages','Viva Q&A for all labs (95+ Q)','SPPU 2019 CE Sem 6 — complete'],
  exam:{cce:30,ese:70}},
 
 // ─── CE SEM 7 ───
-{id:'n-ai7',branch:'CE',sem:7,type:'notes',code:'510241',
- name:'Artificial Intelligence — Complete Notes',
- tagline:'"Search, planning, logic, Bayesian reasoning, NLP. Core AI — explained and solved."',
- badge:'new',price:899,mrp:1699,
- contents:['6 Units','A* Traces','Minimax Trees','Bayesian Networks','PYQ Solved'],
- includes:['Unit I — Problem Solving by Search (BFS, DFS, A*, heuristics, admissibility)','Unit II — Game Playing & Adversarial (minimax, alpha-beta pruning)','Unit III — Planning (STRIPS, partial-order, graph planning)','Unit IV — Knowledge Representation (propositional logic, FOL, inference, resolution)','Unit V — Bayesian Networks & Uncertainty (probabilistic reasoning, Bayesian networks)','Unit VI — Learning & NLP (ML overview, NLP parsing, sentiment analysis)','A* trace examples with heuristic calculations','Minimax tree examples with pruning','Bayesian network probability solved problems'],
+{id:'n-daa7',branch:'CE',sem:7,type:'notes',code:'510241',
+ name:'Design & Analysis of Algorithms — Complete Notes',
+ tagline:'"Divide & conquer, greedy, DP, backtracking, NP-completeness, approximation. All paradigms traced and solved."',
+ badge:'new',price:799,mrp:1499,
+ contents:['6 Units','Algorithm Traces','DP Tables','Recurrence Solutions','NP Proofs','PYQ Solved'],
+ includes:['Unit I — Algorithm Analysis (recurrences, Master theorem, amortised analysis, complexity classes)','Unit II — Divide & Conquer (merge sort, quick sort, matrix multiply, closest pair of points)','Unit III — Greedy (activity selection, Huffman coding, Kruskal, Prim, Dijkstra — correctness proofs)','Unit IV — Dynamic Programming (matrix chain, LCS, 0/1 knapsack, TSP, OBST — DP tables)','Unit V — Backtracking & Branch-Bound (N-Queens, subset sum, graph colouring, 0/1 knapsack B&B)','Unit VI — NP-Completeness (P vs NP, reductions, NP-complete problems, approximation algorithms)','Master theorem all cases with examples','DP trace tables with backtracking','NP reduction proofs (SAT, Vertex Cover, etc.)','PYQ solved'],
  exam:{cce:30,ese:70}},
 
-{id:'n-dc7',branch:'CE',sem:7,type:'notes',code:'510242',
- name:'Distributed Computing — Complete Notes',
- tagline:'"RPC, Lamport clocks, consistency, Paxos, Raft, fault tolerance. Distributed systems — demystified."',
- badge:'',price:799,mrp:1499,
- contents:['6 Units','Clock Examples','2PC Trace','Consensus Algorithms','PYQ Solved'],
- includes:['Unit I — Distributed System Models (architecture, goals, challenges, middleware)','Unit II — Communication (RPC, message passing, sockets, RMI, web services)','Unit III — Synchronisation (clock synchronisation, Lamport timestamps, vector clocks)','Unit IV — Consistency & Replication (FIFO, causal, total order broadcast, replication protocols)','Unit V — Fault Tolerance (process resilience, recovery, checkpointing, two-phase commit)','Unit VI — Consensus & Distributed Algorithms (Paxos, Raft, leader election, mutual exclusion)','Lamport clock worked examples','Two-phase commit protocol trace'],
+{id:'n-ml7',branch:'CE',sem:7,type:'notes',code:'510242',
+ name:'Machine Learning — Complete Notes',
+ tagline:'"Regression, classification, clustering, neural networks, ensemble methods. ML — with math, code and intuition."',
+ badge:'hot',price:899,mrp:1699,
+ contents:['6 Units','Decision Boundaries','Math Derivations','Python Code','Neural Net Diagrams','PYQ Solved'],
+ includes:['Unit I — ML Fundamentals (supervised/unsupervised/RL, bias-variance tradeoff, overfitting, cross-validation)','Unit II — Regression (linear, logistic, polynomial — gradient descent derivations)','Unit III — Classification (Naive Bayes, KNN, Decision Trees, SVM — decision boundaries)','Unit IV — Clustering & Dimensionality Reduction (K-Means, hierarchical, DBSCAN, PCA)','Unit V — Ensemble Methods & Neural Networks (Random Forest, boosting, perceptron, backpropagation)','Unit VI — Model Evaluation & Frameworks (confusion matrix, ROC-AUC, cross-validation, scikit-learn, Keras)','Gradient descent derivation step-by-step','Decision boundary diagrams for each classifier','Neural network backpropagation example','Python pseudocode for every algorithm','PYQ solved'],
  exam:{cce:30,ese:70}},
 
-{id:'c-ce7-full',branch:'CE',sem:7,type:'combo',code:'BUNDLE-CE7-FULL',
- name:'CE Sem 7 — Notes Bundle (All Subjects)',
- tagline:'"Artificial Intelligence + Distributed Computing. Sem 7 theory — both subjects in one pack."',
- badge:'combo',price:1499,mrp:3198,
- contents:['2 Notes PDFs','A* + Paxos','Minimax Trees','Lamport Clocks','PYQ Both'],
- includes:['📒 Artificial Intelligence — Complete Notes','📒 Distributed Computing — Complete Notes','A* trace + Bayesian network solved examples','Lamport clocks + 2PC trace examples','PYQ analysis for both subjects','Quick revision cheat sheets'],
+{id:'n-bc7',branch:'CE',sem:7,type:'notes',code:'510243',
+ name:'Blockchain Technology — Complete Notes',
+ tagline:'"Distributed ledger, consensus mechanisms, smart contracts, Ethereum, DeFi, Hyperledger. Blockchain from ground up."',
+ badge:'trending',price:799,mrp:1499,
+ contents:['6 Units','Consensus Comparison','Solidity Example','Hyperledger','DeFi Overview','PYQ Solved'],
+ includes:['Unit I — Blockchain Fundamentals (distributed ledger, hash chaining, Merkle trees, cryptographic hashing)','Unit II — Consensus Mechanisms (PoW, PoS, DPoS, PBFT — trade-offs, energy comparison)','Unit III — Ethereum & Smart Contracts (EVM, Solidity basics, ABI, token standards ERC-20/721)','Unit IV — DeFi & Applications (DeFi protocols, NFTs, supply chain, healthcare, identity use-cases)','Unit V — Hyperledger & Enterprise Blockchain (Fabric architecture, channels, chaincode, Corda)','Unit VI — Challenges & Future (scalability — sharding, Layer 2, regulatory landscape, Web3)','Consensus mechanism comparison table','Annotated Solidity smart contract example','Bitcoin vs Ethereum vs Hyperledger comparison','PYQ solved'],
+ exam:{cce:30,ese:70}},
+
+{id:'c-ce7-notes',branch:'CE',sem:7,type:'combo',code:'BUNDLE-CE7-N',
+ name:'CE Sem 7 — Notes Bundle (All 3 Subjects)',
+ tagline:'"DAA + Machine Learning + Blockchain. Sem 7 theory — all 3 subjects in one pack."',
+ badge:'combo',price:1999,mrp:4697,
+ contents:['3 Notes PDFs','DAA Traces','ML Math','Solidity Example','PYQ All'],
+ includes:['📒 Design & Analysis of Algorithms — Complete Notes','📒 Machine Learning — Complete Notes','📒 Blockchain Technology — Complete Notes','DP tables + NP reduction proofs','ML derivations + decision boundary diagrams','Smart contract + consensus comparison','PYQ analysis for all 3 subjects'],
  exam:{cce:30,ese:70}},
 
 // ─── CE SEM 8 ───
-{id:'n-iot8',branch:'CE',sem:8,type:'notes',code:'610241',
- name:'Internet of Things — Complete Notes',
- tagline:'"IoT architecture, protocols, sensors, MQTT, Arduino, edge computing, security — all 6 units."',
+{id:'n-hpc8',branch:'CE',sem:8,type:'notes',code:'610241',
+ name:'High Performance Computing — Complete Notes',
+ tagline:'"Parallel programming models, OpenMP, MPI, GPU computing, CUDA, cluster architecture. HPC — demystified."',
  badge:'new',price:799,mrp:1499,
- contents:['6 Units','Protocol Diagrams','IoT Architecture','Platform Comparison','PYQ Solved'],
- includes:['Unit I — IoT Fundamentals (architecture, characteristics, applications, challenges)','Unit II — IoT Hardware (Arduino, Raspberry Pi, sensors, actuators, GPIO)','Unit III — IoT Protocols (MQTT, CoAP, HTTP/REST, Zigbee, BLE, LoRaWAN)','Unit IV — IoT Platforms (AWS IoT, Azure IoT Hub, Google Cloud IoT, Thingspeak)','Unit V — Edge Computing (fog computing, edge AI, latency considerations)','Unit VI — IoT Security (threats, authentication, encryption, security frameworks)','Protocol comparison table (MQTT vs CoAP vs HTTP)','IoT project architecture diagrams','PYQ analysis'],
+ contents:['6 Units','OpenMP Examples','MPI Programs','CUDA Intro','Architecture Diagrams','PYQ Solved'],
+ includes:['Unit I — Parallel Computing Fundamentals (Flynn\'s taxonomy, speedup, Amdahl\'s law, efficiency)','Unit II — Shared Memory Programming (OpenMP directives, thread management, synchronisation, race conditions)','Unit III — Distributed Memory Programming (MPI model, point-to-point, collective ops, MPI_Scatter/Gather)','Unit IV — GPU Computing (GPU architecture, CUDA programming model, threads/blocks/grids, memory hierarchy)','Unit V — Cluster Computing & Cloud HPC (cluster architecture, PBS/SLURM, AWS HPC, spot instances)','Unit VI — Performance Analysis & Optimisation (profiling, cache optimisation, load balancing, benchmarks)','Amdahl\'s law worked examples','OpenMP parallel for loop examples','MPI collective communication diagrams','CUDA thread hierarchy explained'],
  exam:{cce:30,ese:70}},
 
-{id:'n-bc8',branch:'CE',sem:8,type:'notes',code:'610242',
- name:'Blockchain Technology — Complete Notes',
- tagline:'"Distributed ledger, consensus, smart contracts, Ethereum, DeFi — blockchain explained clearly."',
- badge:'trending',price:799,mrp:1499,
- contents:['6 Units','Consensus Comparison','Solidity Example','Platform Guide','PYQ Solved'],
- includes:['Unit I — Blockchain Fundamentals (distributed ledger, blocks, chains, cryptographic hash)','Unit II — Consensus Mechanisms (PoW, PoS, DPoS, PBFT — trade-offs)','Unit III — Ethereum & Smart Contracts (EVM, Solidity basics, token standards ERC-20/721)','Unit IV — DeFi & Applications (DeFi protocols, NFTs, supply chain, healthcare)','Unit V — Blockchain Platforms (Hyperledger Fabric, Ripple, Stellar — comparison)','Unit VI — Challenges & Future (scalability — sharding, Layer 2, regulatory landscape)','Consensus mechanism comparison table','Sample Solidity smart contract annotated'],
- exam:{cce:30,ese:70}},
-
-{id:'c-ce8-full',branch:'CE',sem:8,type:'combo',code:'BUNDLE-CE8-FULL',
- name:'CE Sem 8 — Notes Bundle (All Subjects)',
- tagline:'"IoT + Blockchain. Sem 8 theory — both subjects. Final semester. Finish strong."',
- badge:'combo',price:1299,mrp:2998,
- contents:['2 Notes PDFs','IoT Protocols','Blockchain Consensus','Smart Contract','PYQ Both'],
- includes:['📒 Internet of Things — Complete Notes','📒 Blockchain Technology — Complete Notes','IoT protocol comparison + architecture diagrams','Blockchain consensus worked examples','Solidity smart contract annotated example','PYQ analysis for both subjects'],
- exam:{cce:30,ese:70}},
-
-// ═══ AI-ML SEM 3 ═══
-
-{id:'n-dsa-aiml3',branch:'AIML',sem:3,type:'notes',code:'AIML-310',
- name:'DSA for AI-ML — Complete Notes',
- tagline:'"Same DSA, Python focus, AI application context. Algorithms with purpose — sorted for SE AI-ML."',
- badge:'',price:799,mrp:1499,
- contents:['6 Units','Python Focus','AI Applications','Complexity Tables','PYQ Solved'],
- includes:['Unit I — Algorithms & Complexity (Big-O, time/space analysis, algorithm design strategies)','Unit II — Arrays & Matrices (sparse matrix, polynomial ops, multidimensional addressing)','Unit III — Searching & Sorting (all major sorts with Python implementation + complexity)','Unit IV — Linked Lists (singly, doubly, circular, GLL — Python focus)','Unit V — Stacks & Recursion (postfix evaluation, backtracking — N-Queens, Tower of Hanoi)','Unit VI — Queues (priority queue, circular queue, deque)','Python-first implementations (using lists as arrays)','AI/ML application context for each data structure','SPPU PYQ solved'],
- exam:{cce:30,ese:70}},
-
-{id:'n-oop-aiml3',branch:'AIML',sem:3,type:'notes',code:'AIML-311',
- name:'OOP in Java — Complete Notes',
- tagline:'"Java OOP from basics to multithreading. Classes, inheritance, interfaces, exceptions, file I/O, generics."',
- badge:'',price:799,mrp:1499,
- contents:['6 Units','Java Programs','Comparison Tables','Viva Q&A','PYQ Solved'],
- includes:['Unit I — Java Fundamentals (JVM, data types, arrays, strings, control flow)','Unit II — OOP in Java (classes, objects, constructors, static, this keyword)','Unit III — Inheritance & Interfaces (extends, implements, abstract classes, polymorphism)','Unit IV — Exception Handling (try/catch, custom exceptions, finally)','Unit V — File I/O & Generics (file streams, generics, type-safe collections)','Unit VI — Multithreading (Thread class, Runnable, synchronisation, lifecycle)','Complete Java programs for every concept','Java vs C++ OOP comparison table','Common viva questions answered'],
- exam:{cce:30,ese:70}},
-
-{id:'n-fai',branch:'AIML',sem:3,type:'notes',code:'AIML-312',
- name:'Foundation of AI — Complete Notes',
- tagline:'"Agents, search, CSP, logic, Bayesian networks, LLMs. The subject that explains what AI actually is."',
+{id:'n-dl8',branch:'CE',sem:8,type:'notes',code:'610242',
+ name:'Deep Learning — Complete Notes',
+ tagline:'"CNNs, RNNs, LSTMs, transformers, GANs, generative models. Deep learning — from perceptron to GPT architecture."',
  badge:'hot',price:899,mrp:1699,
- contents:['6 Units','Agent Diagrams','A* Traces','Bayesian Networks','LLM Overview','PYQ Solved'],
- includes:['Unit I — AI Agents (PEAS framework, agent types — reflex, goal-based, utility, learning)','Unit II — Search Strategies (BFS, DFS, iterative deepening, A* with heuristics, hill climbing)','Unit III — Constraint Satisfaction (CSP formulation, backtracking, arc consistency, forward checking)','Unit IV — Propositional & First-Order Logic (inference rules, resolution, unification)','Unit V — Bayesian Reasoning (prior/posterior, naive Bayes, Bayesian networks, causality)','Unit VI — Modern AI & LLMs (neural net intro, transformers concept, GPT architecture overview)','A* algorithm trace examples with heuristic calculations','CSP worked examples (map colouring, N-Queens)','Bayesian network probability solved problems','LLM concepts explained accessibly','SPPU PYQ + MCQ set'],
+ contents:['6 Units','CNN Architecture','LSTM Diagrams','Transformer Attention','GAN Training','PYQ Solved'],
+ includes:['Unit I — Deep Learning Fundamentals (MLP, activation functions, backpropagation, weight init, optimisers)','Unit II — Convolutional Neural Networks (convolution, pooling, CNN architectures — VGG, ResNet, inception)','Unit III — Recurrent Neural Networks (RNN, vanishing gradient, LSTM, GRU — sequence modelling)','Unit IV — Attention & Transformers (attention mechanism, multi-head attention, positional encoding, BERT/GPT overview)','Unit V — Generative Models (Autoencoders, VAE, GAN architecture, training instability, DCGAN)','Unit VI — Applications & Frameworks (image classification, object detection, NLP, TensorFlow, PyTorch, Keras)','CNN feature map visualisation','LSTM gate diagram with equations','Transformer attention mechanism diagram','GAN training dynamics explained','PYQ solved'],
+ exam:{cce:30,ese:70}},
+
+{id:'c-ce8-notes',branch:'CE',sem:8,type:'combo',code:'BUNDLE-CE8-N',
+ name:'CE Sem 8 — Notes Bundle (All Subjects)',
+ tagline:'"High Performance Computing + Deep Learning. Final semester theory. Finish strong."',
+ badge:'combo',price:1499,mrp:3198,
+ contents:['2 Notes PDFs','CUDA + OpenMP','CNN + LSTM Diagrams','Transformer Attention','PYQ Both'],
+ includes:['📒 High Performance Computing — Complete Notes (OpenMP, MPI, CUDA, GPU)','📒 Deep Learning — Complete Notes (CNN, RNN, LSTM, Transformers, GANs)','OpenMP + MPI code examples','CNN architecture diagrams + LSTM gate equations','Transformer attention mechanism','PYQ analysis for both subjects'],
  exam:{cce:30,ese:70}},
 
 // ─── AI-ML SEM 3 — LABS ───
