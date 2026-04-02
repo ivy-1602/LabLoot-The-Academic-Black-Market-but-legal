@@ -1,4 +1,4 @@
-# 🖤 LabLoot - The Academic Black Market b
+# 🖤 LabLoot - The Academic Black Market 
 
 > *"We did the lab. You get the grade."*
 
