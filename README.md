@@ -10,7 +10,7 @@ An e-commerce platform solving the real problem nobody talks about: **engineerin
 
 ## 💯 The Assignment vs The Execution
 
-**The Assignment:** Build an e-commerce website for SE Semester 3 E-Commerce subject.
+**The Assignment:** Build an e-commerce website for SE Semester 3 E-Commerce subject. hi there
 
 **What Most People Did:** Generic online stores selling books, clothes, electronics - things that already exist.
 
