@@ -41,7 +41,7 @@ An **E-Commerce website** (SE Sem 3 project) that sells ready-made lab packs, th
 - ❓ Viva Q&A (25-35 questions with model answers)
 - 📝 Write-up guides (theory, algorithm, flowchart)
 
-**The workflow:** Download → Print → Get signed → Submit → Pass okay
+**The workflow:** Download → Print → Get signed → Submit → Pass 
 
 **Built for:** SPPU's SE/TE/BE students (CS & AI-ML, Sems 3-8)  
 **Vibe:** Honest student humor meets professional e-commerce
