@@ -3,7 +3,7 @@
 > *"We did the lab. You get the grade."*
 
 An e-commerce platform solving the real problem nobody talks about: **engineering students frantically searching for lab journals at 11 PM the night before submission.**
-
+...
 **Live Site:** [lab-loot-the-academic-black-market.vercel.app](https://lab-loot-the-academic-black-market.vercel.app/)
 
 ---
