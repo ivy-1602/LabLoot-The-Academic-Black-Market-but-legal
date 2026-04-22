@@ -217,22 +217,26 @@ body::before {
 }
 
 .nav-login-btn {
-  display: none;
+  display: block;
   background: transparent;
   color: var(--lightgray);
   border: 1px solid #333;
-  padding: .45rem .85rem;
+  padding: .45rem .6rem;
   font-family: 'Oswald', sans-serif;
-  font-size: .75rem;
+  font-size: .68rem;
   font-weight: 600;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
   cursor: pointer;
   transition: all .18s;
   white-space: nowrap;
+  min-height: 44px;
+  -webkit-tap-highlight-color: transparent;
 }
 .nav-login-btn:hover { border-color: var(--red); color: var(--red); }
-@media (min-width: 640px) { .nav-login-btn { display: block; } }
+@media (min-width: 640px) {
+  .nav-login-btn { padding: .45rem .85rem; font-size: .75rem; letter-spacing: 2px; }
+}
 
 .nav-cart {
   display: flex;
